@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdflatex -interaction=nonstopmode planar_kinematics_teaching_demo_beamer.tex)",
+      "Bash(pdflatex -interaction=nonstopmode fig04_acceleration_components.tex)",
+      "Bash(sips -s format png --resampleWidth 1600 fig04_acceleration_components.pdf --out fig04_acceleration_components.png)"
+    ]
+  }
+}
