@@ -1,4 +1,7 @@
 {
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
   "latex-workshop.view.pdf.viewer": "external",
   "latex-workshop.view.pdf.external.viewer.command": "open",
   "latex-workshop.view.pdf.external.viewer.args": [
