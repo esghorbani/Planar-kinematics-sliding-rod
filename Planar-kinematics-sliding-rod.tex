@@ -71,6 +71,26 @@
   \end{tikzpicture}%
 }
 
+\newcommand{\relativevelocityreferencefigure}{%
+  \centering
+  \includegraphics[width=0.72\linewidth]{figures/fig_geometric_constraint_relative_velocity.pdf}
+
+  \vspace{0.02cm}
+  {\tiny\bfseries Coordinate convention}
+
+  \vspace{-0.01cm}
+  \begin{tikzpicture}[scale=0.32, >=stealth]
+    \draw[->,line width=1.1pt,KetteringBlue] (0,0) -- (1.7,0)
+      node[right] {$+x$};
+    \draw[->,line width=1.1pt,KetteringBlue] (0,0) -- (0,1.35)
+      node[above] {$+y$};
+    \draw[->,line width=1.25pt,KetteringBlue]
+      (3.05,0.68) arc[start angle=-35,end angle=250,radius=0.48];
+    \node[KetteringBlue] at (4.9,1.3) {\tiny CCW};
+    \node[KetteringBlue,anchor=west] at (3.25,0.45) {$+\omega,\ +\alpha$};
+  \end{tikzpicture}%
+}
+
 \newcommand{\instantcenterreferencefigure}{%
   \centering
   \includegraphics[width=0.82\linewidth]{figures/fig02_instantaneous_center.pdf}%
@@ -553,7 +573,7 @@
       }
     \end{column}
     \begin{column}{0.38\textwidth}
-      \constraintreferencefigure
+      \relativevelocityreferencefigure
     \end{column}
   \end{columns}
 \end{frame}
@@ -582,7 +602,7 @@
       }
     \end{column}
     \begin{column}{0.38\textwidth}
-      \constraintreferencefigure
+      \relativevelocityreferencefigure
     \end{column}
   \end{columns}
 \end{frame}
