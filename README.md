@@ -1,7 +1,6 @@
 # Planar Kinematics Sliding Rod Teaching Demo
 
-This repository contains the Beamer slide deck for a teaching demo on planar
-rigid-body kinematics.
+This repo teaches planarrigid-body kinematics.
 
 The demo was built around one sliding-rod problem: a 5 m rigid rod has one end
 constrained to slide down a vertical wall and the other end constrained to slide
